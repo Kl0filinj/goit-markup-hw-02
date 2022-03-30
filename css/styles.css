@@ -1,0 +1,14 @@
+/* Переменные */
+
+:root {
+    --accent-color: #2196F3;
+    --headline-color: #212121;
+    --main-text-color: #757575;
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: #ffffff;
+    
+    font-family: 'Roboto', sans-serif;
+}
