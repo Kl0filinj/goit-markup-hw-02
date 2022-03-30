@@ -4,6 +4,8 @@
     --accent-color: #2196F3;
     --headline-color: #212121;
     --main-text-color: #757575;
+    --main-button-bg-color: #F5F4FA;
+    --accented-button-color: #ffffff;
 }
 
 body {
@@ -83,8 +85,8 @@ body {
 }
 
 .button {
-    color: #ffffff;
-    background-color: var(--accent-color);
+    color: var(--headline-color);
+    background-color: var(--main-button-bg-color);
 
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -94,6 +96,11 @@ body {
     letter-spacing: 0.06em;
 
     cursor: pointer;
+}
+
+.button.accent {
+    color: var(--accented-button-color);
+    background-color: var(--accent-color);
 }
 
 /* Наши преимущества */
