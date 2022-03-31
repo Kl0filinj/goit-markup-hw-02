@@ -107,6 +107,12 @@ body {
     background-color: var(--main-button-bg-color);
 }
 
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--accent-white-color);
+    background-color: var(--accent-color);
+}
+
 /* Добавить ховер и фокус на фильтр баттон */
 
 /* Наши преимущества */
