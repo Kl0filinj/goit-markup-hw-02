@@ -88,9 +88,6 @@ body {
 }
 
 .button {
-    color: var(--headline-color);
-    background-color: var(--main-button-bg-color);
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -100,10 +97,17 @@ body {
     cursor: pointer;
 }
 
-.button.accent {
-    color: var(--accented-button-color);
+.accent-button {
+    color: var(--accent-white-color);
     background-color: var(--accent-color);
 }
+
+.filter-button {
+    color: var(--headline-color);
+    background-color: var(--main-button-bg-color);
+}
+
+/* Добавить ховер и фокус на фильтр баттон */
 
 /* Наши преимущества */
 
@@ -219,11 +223,11 @@ body {
 
 /* Фильтр */
 
-.filter-button:hover,
+/* .filter-button:hover,
 .filter-button:focus {
     color: var(--accented-button-color);
     background-color: var(--accent-color);
-}
+} */
 
 /* Проекты */
 
